@@ -40,7 +40,7 @@ Remember to treat your API keys as sensitive data, do not expose them publicly o
 
 # Adjustments
 
-You will need to adjust the name of the book/course at a few points in the code indicated by comments.
+You will need to adjust the name of the book/course at a few points in the code indicated by comments. The current scripts are set up to use book names of "SEC5881" for book 1, "SEC5882" for book 2, etc. You can change this to however you need. 
 
 If you are creating indexes for more books or less books, adjust the range in the second for loop in combiner.py to match the number of books you are indexing.
 Running the Scripts
