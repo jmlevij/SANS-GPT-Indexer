@@ -40,21 +40,15 @@ Remember to treat your API keys as sensitive data, do not expose them publicly o
 
 # Adjustments
 
-You will need to adjust the name of the book/course at a few points in the code indicated by comments. The current scripts are set up to use book names of "SEC5881" for book 1, "SEC5882" for book 2, etc. You can change this to however you need. 
+Make the following adjustments before running the scripts.
+
+You will need to adjust the name of the filepath to your books and the name of the output file.
 
 If you are creating indexes for more books or less books, adjust the range in the second for loop in combiner.py to match the number of books you are indexing.
 Running the Scripts
 
 1. Run the index.py script for each book you want to index.
 2. Once all books have been indexed, run the combiner.py script to create a composite index of all the books.
-
-# Error Handling
-
-If you receive an error stating that gpt-4 is not available, you will need to replace "gpt-4" in the openai.ChatCompletion.create() call with the identifier of the most recent model available in the OpenAI models list.
-
-Visit the OpenAI Models page to see the currently available models.
-
-Please note that using a different model may result in differing results from the ones mentioned above.
 
 # Final Notes
 
